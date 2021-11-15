@@ -26,7 +26,7 @@ class LEDdisplay():
     self.shifter.shiftByte(LEDdisplay.numbers[num])
   
 
-dataPin, latchPin, clockPin = 23, 24, 25
+dataPin, latchPin, clockPin = 21, 17, 26
 
 # Pick a number sequence
 sequence = [8, 6, 7, 5, 3, 0, 9]
